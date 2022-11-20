@@ -1,0 +1,14 @@
+{
+	"kcal_ranking": [
+		{ "name": "hanako", "kcal": "125" },
+		{ "name": "tarou", "kcal": "354"},
+		{ "name": "satou", "kcal": "680"},
+		{ "name": "yosida", "kcal": "710"}
+	] ,
+	"step_ranking": [
+		{ "name": "hanako", "step": "123" },
+		{ "name": "tarou", "step": "456"},
+		{ "name": "satou", "step": "79"},
+		{ "name": "yosida", "step": "111"}
+	] 
+}

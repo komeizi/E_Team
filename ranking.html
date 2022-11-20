@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="wakana.css" rel="stylesheet">
+    <script src="ranking.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>ランキング</h1>
+    <form id="testForm">
+        <input type="text" name="month">
+        <button type="button" onclick="WriteToFile()">月のランキング</button>
+    </form>
+    <div class="cal">
+        <h2>運動量ランキング</h2>
+        <ol>
+            <div id="result1">データ取得失敗</div>
+        </ol>
+
+        <ul>
+            <li><h3>あなたは○○位
+                ○kcal</h3></li>
+        </ul>
+        
+    </div>
+    <div class="steps">
+        <h2>歩数ランキング</h2>
+        <ol>
+            <div id="result2">データ取得失敗</div>
+        </ol>
+        <ul>
+            <li><h3>あなたは○○位 
+                ○歩</h3></li>
+        </ul>
+    </div>
+
+
+
+
+    <a href="top.html" class="btn">トップに戻る</a>
+</body>
+</html>
