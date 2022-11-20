@@ -1,10 +1,10 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-sample = [{"id": 1, "month": 3, "day": 4, "kcal": 166, "step": 42},
-        {"id": 7777, "month": 5, "day": 7, "kcal": 126, "step": 422},
-        {"id": 771, "month": 9, "day": 3, "kcal": 1260, "step": 4},
-        {"id": 3, "month": 5, "day": 2, "kcal": 1663, "step": 424}]
+sample = [{"name": 1, "month": 3, "day": 4, "kcal": 166, "step": 42},
+        {"name": 7777, "month": 5, "day": 7, "kcal": 126, "step": 422},
+        {"name": 771, "month": 9, "day": 3, "kcal": 1260, "step": 4},
+        {"name": 3, "month": 5, "day": 2, "kcal": 1663, "step": 424}]
 
 #月指定->
 
